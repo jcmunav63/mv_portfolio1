@@ -1,3 +1,120 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+  
+body {
+  background-position: 0% 65%;
+  background-image: url(/images/headline-background-mobile.png);
+  background-repeat: no-repeat;
+}
+  
 h1 {
-    color: cadetblue;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+  
+header {
+  width: 375px;
+  box-sizing: border-box;
+  margin-left: 24px;
+  margin-bottom: 160px;
+}
+  
+section {
+  width: 375px;
+  box-sizing: border-box;
+  margin-left: 24px;
+  margin-right: 20px;
+  margin-bottom: 150px;
+}
+  
+ul {
+  list-style: none;
+}
+  
+li {
+  margin-right: 15px;
+  }
+  
+a {
+  text-decoration: none;
+  }
+  
+nav {
+  margin: 0;
+  padding: 0;
+}
+  
+.container-1 {  /* area of clock, battery, etc.*/
+  width: 100%;
+  height: 30px;
+}
+  
+.container-2 {
+  font-family: Poppins, sans-serif;
+  margin-left: 0;
+  margin-right: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+  
+.headline {
+  margin: 20px, 0, 20px, 0;
+  font-family: Poppins, sans-serif;
+  color: #172b4d;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+}
+  
+.logo-txt {
+  font-family: Poppins, sans-serif;
+  color: #6070ff;
+  font-weight: bold;
+font-size: 18px;
+}
+  
+.name {
+  width: 85%;
+margin-top: 20px;
+}
+  
+.desc {
+  margin-top: 14px;
+  font-weight: 400;
+  width: 85%;
+  line-height: 1.5;
+  text-align: justify;
+}
+  
+.container-3 {
+  display: flex;
+}
+  
+.connect {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #7f8cff;
+}
+  
+.linkedin.m.github.sign {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  
+.menu-im {
+  width: 42px;
+}
+  
+.m {
+  width: 22px;
+  position: relative;
+  top: 3px;
+}
+  
+.space1 {
+  width: 40%;
 }
