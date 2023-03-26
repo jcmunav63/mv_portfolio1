@@ -22,11 +22,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [mv_portfolio-setup-and-mobile-first] <a name="about-project"></a>
+# 📖 [Portfolio: finish mobile version] <a name="about-project"></a>
 
 mv_portfolio-setup-and-mobile-first!
 
-**mv_portfolio-setup-and-mobile-first** A project for setting up a part of a portfolio page!
+**Portfolio: finish mobile version** A project for setting up a part of a portfolio page!
 
 ## 🛠️ Built With <a name="built-with">
 ### Tech Stack <a name="tech-stack"></a>

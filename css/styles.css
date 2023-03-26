@@ -5,7 +5,7 @@
 }
 
 body {
-  background-position: 0% 65%;
+  background-position: 0% 15%;
   background-image: url(/images/headline-background-mobile.png);
   background-repeat: no-repeat;
 }
@@ -57,7 +57,6 @@ nav {
 }
 
 .container-2 {
-  /* font-family: Poppins, sans-serif; */
   margin-left: 0;
   margin-right: 48px;
   display: flex;
@@ -67,15 +66,18 @@ nav {
 
 .headline.about_myself {
   margin: 20px, 0, 20px, 0;
-  /* font-family: Poppins, sans-serif; */
   color: #172b4d;
   width: 375px;
   display: flex;
   flex-direction: column;
 }
 
+.frameworks.skills {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .logo-txt {
-  /* font-family: Poppins, sans-serif; */
   color: #6070ff;
   font-weight: bold;
   font-size: 18px;
@@ -102,7 +104,6 @@ nav {
 
 .container-4 {
   display: flex;
-  /* font-family: Poppins, sans-serif; */
 }
 
 .about {
@@ -116,11 +117,22 @@ nav {
 }
 
 .languages {
-  margin 30 15 30 20;
+  margin: 30 15 30 20;
 }
 
-.lang {
+.lang.frame.lang {
   font-size: 20px;
+}
+
+.js.html5.css3 {
+  font-size: 15px;
+  color: #253858;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 50px 150px;
+  justify-content: left;
 }
 
 .resume-text {
@@ -144,6 +156,11 @@ nav {
 .linkedin.m.github.sign {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.js-img.html5-img.css3-img {
+  width: 24px;
+  height: 24px;
 }
 
 .menu-im {
