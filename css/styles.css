@@ -5,7 +5,7 @@
 }
 
 body {
-  background-position: 0% 15%;
+  background-position: 0% 8%;
   background-image: url(/images/headline-background-mobile.png);
   background-repeat: no-repeat;
 }
@@ -64,7 +64,7 @@ nav {
   justify-content: space-between;
 }
 
-.headline.about_myself {
+.headline, .about_myself {
   margin: 20px, 0, 20px, 0;
   color: #172b4d;
   width: 375px;
@@ -72,7 +72,7 @@ nav {
   flex-direction: column;
 }
 
-.frameworks.skills {
+.frameworks, .skills {
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -120,19 +120,26 @@ nav {
   margin: 30 15 30 20;
 }
 
-.lang.frame.lang {
+.lang, .frame, .lang {
   font-size: 20px;
 }
 
-.js.html5.css3 {
+.js, .html5, .css3 {
   font-size: 15px;
   color: #253858;
 }
 
 .grid-1 {
   display: grid;
-  grid-template-columns: 50px 150px;
-  justify-content: left;
+  grid-template-columns: 100%;
+  grid-template-rows: 500px 500px 500px 500px;
+  justify-content: center;
+  width: 325px;
+}
+
+.work1-img {
+  width: 100%;
+  height: auto;
 }
 
 .resume-text {
