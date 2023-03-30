@@ -5,7 +5,7 @@
 }
 
 body {
-  background-position: 0% 3.5%;
+  background-position: 0% 1.5%;
   background-image: url(/images/headline-background-mobile.png);
   background-repeat: no-repeat;
 }
@@ -18,15 +18,13 @@ h1 {
 header {
   width: 100%;
   box-sizing: border-box;
-  margin-bottom: 160px;
+  margin-bottom: 80px;
 }
 
 section {
   width: 100%;
   box-sizing: border-box;
-  /* margin-left: 24px; */
-  /* margin-right: 20px; */
-  margin-bottom: 130px;
+  margin-bottom: 100px;
 }
 
 ul {
@@ -47,10 +45,10 @@ nav {
 }
 
 hr {
-  width: 60%;
+  width: 85%;
   margin: 10px auto 10px auto;
   padding: 0px;
-  border-bottom: solid 2px #ececec;
+  border-bottom: solid 2px #dfe1e6;
 }
 
 .poppins {
@@ -85,9 +83,6 @@ hr {
 .name {
   width: 85%;
   margin: 20px 20px 0px 24px;
-  /* margin-left: 24px;
-  margin-top: 20px;
-  margin-right: 20px; */
   color: #172b4d;
 }
 
@@ -97,12 +92,11 @@ hr {
   width: 85%;
   color: #344563;
   line-height: 1.5em;
-  /* text-align: justify; */
 }
 
 .connect {
   width: 85%;
-  margin: 20px 20px 15px 24px;
+  margin: 0px 20px 15px 24px;
   color: #7f8cff;
   font-weight: 500;
 }
@@ -124,8 +118,6 @@ hr {
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: 640px 700px 640px 700px;
-  /* justify-content: center; */
-  /* width: 325px; */
   gap: 25px;
 }
 
@@ -135,7 +127,6 @@ hr {
   border-radius: 16px;
   margin-top: 30px;
   margin-bottom: 30px;
-  /* height: 530px; */
 }
 
 .desc2 {
@@ -228,7 +219,6 @@ hr {
 .about_myself {
   margin: 20px, 0px, 20px, 0px;
   color: #172b4d;
-  /* width: 100%; */
   display: flex;
   flex-direction: column;
 }
@@ -260,17 +250,17 @@ hr {
 }
 
 .lang1 {
-  width: 80%;
+  width: 85%;
   margin: 10px auto 10px auto;
   display: flex;
   flex-direction: column;
 }
 
 .row1 {
-  width: 85%;
-  /* margin-left: 24px; */
+  width: 100%;
   display: flex;
   margin-bottom: 10px;
+  background-color: #f7f7f9;
 }
 
 .lang, .frame, .skill {
@@ -282,10 +272,10 @@ hr {
   font-size: 20px;
   color: #253858;
   font-weight: 500;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 18px;
+  padding-bottom: 5px;
   padding-left: 15px;
-  padding-right: 15px;
+  /* padding-right: 15px; */
   width: 70%;
   vertical-align: middle;
 }
@@ -293,6 +283,7 @@ hr {
 .js-img, .html5-img, .css3-img {
   width: 20%;
   height: auto;
+  padding: 5px;
 }
 
 .resume-text {
@@ -320,8 +311,4 @@ hr {
   width: 22px;
   position: relative;
   top: 3px;
-}
-
-.space1 {
-  width: calc(100% - 118px;
 }
