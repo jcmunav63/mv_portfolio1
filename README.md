@@ -22,11 +22,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [mv_portfolio-setup-and-mobile-first] <a name="about-project"></a>
+# 📖 [Portfolio: finish mobile version] <a name="about-project"></a>
 
-mv_portfolio-setup-and-mobile-first!
+mv_portfolio: finish mobile version!
 
-**mv_portfolio-setup-and-mobile-first** A project for setting up a part of a portfolio page!
+**Portfolio: finish mobile version** A project for finishing a mobile portfolio app!
 
 ## 🛠️ Built With <a name="built-with">
 ### Tech Stack <a name="tech-stack"></a>
@@ -41,7 +41,7 @@ mv_portfolio-setup-and-mobile-first!
 
 - **Good HTML and CSS practices**
 - **A wepage with use of linters**
-- **Use of CSS Flexbox**
+- **Use of CSS Flexbox and Grid Layout**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -56,7 +56,7 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-- A modern web browser like Google Chrome or Mozilla Firefox.
+- A modern web browser like Google Chrome, Mozilla Firefox, Apple Safari or Microsoft Edge.
 
 ### Setup
 
@@ -65,7 +65,7 @@ Clone this repository to your desired folder:
 - Clone the project using by running the following command :
 
 `git clone`
-`git@github.com:jcmunav63/mv_portfolio-setup-and-mobile-first.git`
+`git@github.com:jcmunav63/mv_portfolio1.git`
 
 
 
@@ -87,8 +87,8 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Include other sections of portfolio page and make the project look professional**
-- [ ] **Develop a mobile version**
+- [ ] **Include the footer section and make the project look professional**
+- [ ] **Develop a desktop version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

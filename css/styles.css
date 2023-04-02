@@ -5,7 +5,7 @@
 }
 
 body {
-  background-position: 0% 65%;
+  background-position: 0% 1.5%;
   background-image: url(/images/headline-background-mobile.png);
   background-repeat: no-repeat;
 }
@@ -16,18 +16,15 @@ h1 {
 }
 
 header {
-  width: 375px;
+  width: 100%;
   box-sizing: border-box;
-  margin-left: 24px;
-  margin-bottom: 160px;
+  margin-bottom: 100px;
 }
 
 section {
-  width: 375px;
+  width: 100%;
   box-sizing: border-box;
-  margin-left: 24px;
-  margin-right: 20px;
-  margin-bottom: 150px;
+  margin-bottom: 130px;
 }
 
 ul {
@@ -47,31 +44,46 @@ nav {
   padding: 0;
 }
 
-.container-1 {
-  width: 100%;
-  height: 30px;
+hr {
+  width: 85%;
+  margin: 2px auto 2px auto;
+  padding: 0;
+  border-bottom: solid 1px #dfe1e6;
 }
 
-.container-2 {
+.poppins {
   font-family: Poppins, sans-serif;
-  margin-left: 0;
-  margin-right: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
+/* Toolbar */
+.container-2 {
+  margin-left: 27px;
+  margin-right: 37px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-im {
+  width: 24px;
+  height: 24px;
+
+  /* padding-top: 2px; */
+  vertical-align: middle;
+}
+
+/* Section Headline */
 .headline {
   margin: 20px, 0, 20px, 0;
-  font-family: Poppins, sans-serif;
   color: #172b4d;
-  width: 375px;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 190px;
 }
 
 .logo-txt {
-  font-family: Poppins, sans-serif;
   color: #6070ff;
   font-weight: bold;
   font-size: 18px;
@@ -79,42 +91,306 @@ nav {
 
 .name {
   width: 85%;
-  margin-top: 20px;
+  margin: 20px 20px 0 24px;
+  color: #172b4d;
 }
 
 .desc {
-  margin-top: 14px;
+  margin: 16px 10px 20px 24px;
   font-weight: 400;
+  width: 88%;
+  color: #344563;
+  line-height: 1.5em;
+}
+
+.connect {
   width: 85%;
-  line-height: 1.5;
-  text-align: justify;
+  margin: 0 20px 15px 24px;
+  color: #7f8cff;
+  font-weight: 500;
 }
 
 .container-3 {
   display: flex;
+  margin: 0 20px 20px 24px;
 }
 
-.connect {
-  margin-top: 20px;
+/* Section Works */
+.works {
+  width: 100%;
+}
+
+.grid-1 {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 640px 700px 640px 700px;
+  gap: 25px;
+}
+
+.work1 {
+  background-color: #fff;
+  border: solid 1px #dfe1e6;
+  border-radius: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.desc2 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #344563;
+  line-height: 1.5em;
+  margin-left: 5%;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+
+.work1-img {
+  display: block;
+  width: 90%;
+  height: auto;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-text1 {
+  margin-top: 8px;
+  font-size: 32px;
+  color: #172b4d;
+  width: 70%;
+  margin-left: 5%;
   margin-bottom: 10px;
-  color: #7f8cff;
 }
 
-.linkedin.m.github.sign {
+.canopy {
+  color: #344563;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+
+.bed,
+.year {
+  color: #7a869a;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.dot {
+  margin: 0;
+  padding: 0;
+  width: 60%;
+  height: auto;
+}
+
+.stack {
+  font-size: 12px;
+  color: #6070ff;
+  background-color: #ebebff;
+  padding: 4px 12px 4px 12px;
+  border-radius: 4px;
+}
+
+.flex1,
+.flex2 {
+  margin-left: 5%;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.see-project {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #fff;
+  color: #396df2;
+  border: solid 1px #396df2;
+  padding: 12px;
+  border-radius: 4px;
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+.see-project:hover {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #6070ff;
+  color: #fff;
+  border: solid 1px #fff;
+  padding: 12px;
+  border-radius: 4px;
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+/* Section About Myself */
+.about_myself {
+  margin: 20px, 0, 20px, 0;
+  color: #172b4d;
+  display: flex;
+  flex-direction: column;
+}
+
+.about {
+  width: 90%;
+  color: #172b4d;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  margin-left: 24px;
+}
+
+.container-4 {
+  display: flex;
+  margin: 0 20px 20px 24px;
+}
+
+.my-resume {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #fff;
+  color: #396df2;
+  border: solid 1px #396df2;
+  padding: 12px;
+  border-radius: 4px;
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+.my-resume:hover {
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #6070ff;
+  color: #fff;
+  border: solid 1px #fff;
+  padding: 12px;
+  border-radius: 4px;
+  margin-left: 5%;
+  margin-right: auto;
+}
+
+.languages {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto 15px 26px;
+  width: 80%;
+}
+
+.frameworks,
+.skills {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto 30px 26px;
+  width: 80%;
+}
+
+.lang1 {
+  width: 85%;
+  margin: 10px auto 10px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.row1 {
+  width: 100%;
+  display: flex;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  background-color: #f7f7f9;
+}
+
+.li-sp {
+  margin-bottom: 12px;
+}
+
+.arrow-down {
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  background-blend-mode: multiply;
+  vertical-align: middle;
+}
+
+.arrow-right {
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  background-blend-mode: multiply;
+  vertical-align: middle;
+}
+
+.lang,
+.frame,
+.skill {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.js,
+.html5,
+.css3 {
+  font-size: 15px;
+  color: #253858;
+  font-weight: 500;
+  line-height: 20px;
+  padding-top: 16px;
+  padding-bottom: 5px;
   padding-left: 15px;
-  padding-right: 15px;
+  width: 70%;
+  vertical-align: middle;
 }
 
-.menu-im {
-  width: 42px;
+.js-img,
+.html5-img,
+.css3-img {
+  width: 17%;
+  height: auto;
+  padding: 4px;
+}
+
+.resume-text {
+  color: #396df2;
+  font-size: 17px;
+  text-align: center;
+  width: 155px;
+  padding: 10px;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 2px;
+  border-color: #396df2;
+}
+
+.linkedin,
+.m,
+.github,
+.angelist {
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .m {
   width: 22px;
   position: relative;
   top: 3px;
-}
-
-.space1 {
-  width: 40%;
 }
