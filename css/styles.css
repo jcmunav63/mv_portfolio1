@@ -324,22 +324,18 @@ hr {
 }
 
 .arrow-down {
-  width: 14px;
-  height: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-
-  /* background-color: #ffffff; */
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  background-blend-mode: multiply;
   vertical-align: middle;
 }
 
 .arrow-right {
-  width: 8px;
-  height: 14px;
-  padding-left: 8px;
-  padding-right: 8px;
-
-  /* background-color: #ffffff; */
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  background-blend-mode: multiply;
   vertical-align: middle;
 }
 
