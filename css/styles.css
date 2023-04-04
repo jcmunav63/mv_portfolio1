@@ -8,6 +8,7 @@ body {
   background-position: 0% 1.5%;
   background-image: url(/images/headline-background-mobile.png);
   background-repeat: no-repeat;
+  background-color: #F7F7F9;
 }
 
 h1 {
@@ -193,6 +194,7 @@ hr {
 .stack {
   font-size: 12px;
   color: #6070ff;
+  float: left;
   background-color: #ebebff;
   padding: 4px 12px 4px 12px;
   border-radius: 4px;
@@ -393,4 +395,92 @@ hr {
   width: 22px;
   position: relative;
   top: 3px;
+}
+
+/* Contact form section*/
+#foot {
+  background: url("/images/bg-blue.png") no-repeat;
+  width: 100%;
+  height: 779px;
+  margin 0px;
+  padding: 0px;
+}
+
+#contact-form {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contactf {
+  margin-top: 80px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+  width: 85%;
+  height: 56px;
+}
+
+#desc3 {
+  font-weight: 400;
+  font-size: 20px;
+  /* width: 88%; */
+  color: #ebebff;
+  width: 85%;
+  line-height: 28px;
+}
+
+.name {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #172B4D;
+  padding 15px 38px 15px 16px;
+  margin-bottom: 20px;
+  width: 327px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+
+.b {
+  margin-bottom: 20px;
+}
+
+.email {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #172B4D;
+  padding 15px 38px 15px 16px;
+  margin-bottom: 20px;
+  width: 327px;
+  position: absolute;
+  left: 0px;
+  top: 68px;
+}
+
+.textarea {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #B3BAC5;
+  padding 15px 38px 15px 16px;
+  margin-bottom: 20px;
+  width: 327px;
+  position: absolute;
+  left: 0px;
+  top: 134px;
+}
+
+.getintouch {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #6070FF;
+  padding 12px 16px 12px 16px;
+  width: 110px;
 }
