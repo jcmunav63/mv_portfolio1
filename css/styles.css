@@ -397,7 +397,7 @@ hr {
   top: 3px;
 }
 
-/* Contact form section*/
+/* Contact form section */
 #foot {
   box-sizing: border-box;
   background: url("/images/blue-background.png");
@@ -406,8 +406,8 @@ hr {
   background-repeat: no-repeat;
   width: 100%;
   height: auto;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 #contact-form {
@@ -478,7 +478,7 @@ hr {
   width: 88%;
   height: 50px;
   color: #172b4d;
-  margin: 0px auto 18px auto;
+  margin: 0 auto 18px auto;
 }
 
 .box3 {
@@ -488,7 +488,7 @@ hr {
   width: 88%;
   height: 170px;
   color: #b3bac5;
-  margin: 0px auto 18px auto;
+  margin: 0 auto 18px auto;
 }
 
 .button3 {
@@ -503,7 +503,7 @@ hr {
   padding: 12px 16px 12px 16px;
   border-radius: 8px;
   width: 132px;
-  margin: 0px auto 35px 22px;
+  margin: 0 auto 35px 22px;
 }
 
 .button3:hover {
@@ -518,5 +518,5 @@ hr {
   padding: 12px 16px 12px 16px;
   border-radius: 8px;
   width: 132px;
-  margin: 0px auto 35px 22px;
+  margin: 0 auto 35px 22px;
 }
