@@ -160,6 +160,19 @@ hr {
   margin-right: auto;
 }
 
+.work1-img:hover {
+  animation: scale 4s ease-in-out 1s infinite forwards;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .work-text1 {
   margin-top: 8px;
   font-size: 32px;
