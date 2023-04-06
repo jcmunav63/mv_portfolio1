@@ -1,77 +1,202 @@
-* {
-  margin: 0;
-  border: 0;
-  padding: 0;
+/* DESKTOP SIZE MEDIA QUERY*/
+@media only screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: lightgreen;
+    /* background-position: 0% 0%; */
+    background-image: url(/images/bg-header.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    margin-right: 15px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+    /* Toolbar */
+    .container-2 {
+      display: none;
+    }
+
+    .nav-menu {
+      display: flex;
+    }
+
+    .nav-menu-text {
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 20px;
+      color: #344563;
+    }
+
+    .container-5 {
+      width: 80%;
+      height: 72px;
+      margin: 0px auto 100px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+    }
+  
+    /* .menu-im {
+      width: 24px;
+      height: 24px;
+      vertical-align: middle;
+    } */
+  
+    .logo-txt {
+      color: #6070ff;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+
+
+    .headline {
+      width: 64%;
+      margin: 0% 10% 190px 10%;
+      color: #172b4d;
+      display: flex;
+      flex-direction: column;
+    }
 }
 
-body {
+/* MOBILE SIZE MEDIA QUERY*/
+@media only screen and (max-width: 767px) {
+  * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+  body {
+    background-color: lightblue;
+    background-position: 0% 1.5%;
+    background-image: url(/images/headline-background-mobile.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  header {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+  
+  section {
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 160px;
+  }
+
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    margin-right: 15px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  nav {
+    margin: 0;
+    padding: 0;
+  }
+  
+  hr {
+    width: 85%;
+    margin: 2px auto 2px auto;
+    padding: 0;
+    border-bottom: solid 1px #dfe1e6;
+  }
+
+  /* Toolbar */
+  .container-2 {
+    margin-left: 27px;
+    margin-right: 37px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container-5 {
+    display: none;
+  }
+
+  .menu-im {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+  }
+
+  .logo-txt {
+    color: #6070ff;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+  /* Section Headline */
+.headline {
+  margin: 20px, 0, 20px, 0;
+  color: #172b4d;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 190px;
+}
+
+.name {
+  width: 85%;
+  margin: 20px 20px 0 24px;
+  color: #172b4d;
+}
+
+.desc {
+  margin: 16px 10px 20px 24px;
+  font-weight: 400;
+  width: 88%;
+  color: #344563;
+  line-height: 1.5em;
+}
+}
+
+/* body {
   background-position: 0% 1.5%;
   background-image: url(/images/headline-background-mobile.png);
   background-repeat: no-repeat;
   background-color: #fff;
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: bolder;
-}
-
-header {
-  width: 100%;
-  box-sizing: border-box;
-  margin-bottom: 100px;
-}
-
-section {
-  width: 100%;
-  box-sizing: border-box;
-  margin-bottom: 160px;
-}
-
-ul {
-  list-style: none;
-}
-
-li {
-  margin-right: 15px;
-}
-
-a {
-  text-decoration: none;
-}
-
-nav {
-  margin: 0;
-  padding: 0;
-}
-
-hr {
-  width: 85%;
-  margin: 2px auto 2px auto;
-  padding: 0;
-  border-bottom: solid 1px #dfe1e6;
-}
+} */
 
 .poppins {
   font-family: Poppins, sans-serif;
-}
-
-/* Toolbar */
-.container-2 {
-  margin-left: 27px;
-  margin-right: 37px;
-  margin-top: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.menu-im {
-  width: 24px;
-  height: 24px;
-
-  /* padding-top: 2px; */
-  vertical-align: middle;
 }
 
 /* Section Headline */
@@ -82,12 +207,6 @@ hr {
   display: flex;
   flex-direction: column;
   margin-bottom: 190px;
-}
-
-.logo-txt {
-  color: #6070ff;
-  font-weight: bold;
-  font-size: 18px;
 }
 
 .name {
