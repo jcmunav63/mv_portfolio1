@@ -9,6 +9,7 @@
   body {
     background-image: url(/images/bg-header.png);
     background-size: 100vw;
+    background-position: 0% -1.5%;
     background-repeat: no-repeat;
   }
 
@@ -94,7 +95,7 @@
 
   /* Headline section */
   .headline {
-    padding: 0px 14% 0% 14%;
+    padding: 0px 18% 0% 18%;
     color: #172b4d;
     display: flex;
     flex-direction: column;
@@ -103,7 +104,7 @@
 
   .name {
     color: #172b4d;
-    padding-top: 10px;
+    padding-top: 75px;
     font-size: 48px;
     line-height: 60px;
     font-weight: 700;
@@ -126,26 +127,176 @@
   
   .container-3 {
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 200px;
   }
 
   /* Work Section */
+  .works {
+    margin-top: 50px;
+    width: 100%;
+  }
+
   .grid-1 {
     display: none;
   }
 
   .grid-1b {
-    width: 90%;
+    /* width: 90%; */
+    box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 900px 900px 900px 900px;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* gap: 25px; */
+  }
+
+  .row1 {
+    width: 80%;
+    margin: 20px auto 20px auto;
+    padding: 10px 10px 10px 10px;
+    background-color: #fff;
+    border: solid 1px #dfe1e6;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
     gap: 20px;
   }
 
+  /* .grid2 {
+    width: 100%;
+    grid-template-columns: 40% 40%;
+  } */
+
   .work1b {
-    
+    background-color: #fff;
+    width: 40%;
+    /* border: solid 1px #dfe1e6;
+    border-radius: 16px; */
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+    padding: 20px auto auto 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .photo1 {
+    box-sizing: border-box;
+    width: 40%;
+    height: auto;
+    padding: 0px 10px 0px 10px;
+    object-fit: resize;
+    /* box-sizing: border-box;
+    max-width: 300px;
+    object-fit: contain;
+    height: auto; */
+    /* padding: 24px auto 24px 24px; */
+  }
+
+  .photo2 {
+    box-sizing: border-box;
+    width: 40%;
+    height: auto;
+    padding: 0px 10px 0px 10px;
+    object-fit: resize;
+    /* box-sizing: border-box;
+    max-width: 300px;
+    object-fit: contain;
+    height: auto; */
+    /* padding: 24px 22px 24px auto; */
+  }
+
+  .work-text1b {
+    /* padding: 10px 20px 10px 20px; */
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 700;
+    color: #172b4d;
+    margin-bottom: 20px;
+    /* width: 70%; */
+    /* margin-bottom: 10px; */
+  }
+
+  .canopy {
+    color: #344563;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    margin: 5px 10px 5px 10px;
+    /* padding: 0px 15px 0px 15px; */
+  }
+
+  .bed,
+  .year {
+    color: #6b778c;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+  }
+
+  .desc2 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #344563;
+    margin-bottom: 28px;
+    width: 90%;
+  }
+
+  .dot {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    height: auto;
+  }
+
+  .stack {
+    font-size: 12px;
+    line-height: 16px;
+    color: #6070ff;
+    float: left;
+    background-color: #ebebff;
+    padding: 4px 12px 4px 12px;
+    border-radius: 6px;
+  }
+
+  .flex1,
+  .flex2 {
+    /* margin-left: 5%;
+    margin-right: auto; */
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+
+  .see-project {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #fff;
+    color: #396df2;
+    border: solid 1px #396df2;
+    padding: 12px;
+    border-radius: 4px;
+    /* margin-left: 5%;
+    margin-right: auto; */
+  }
+
+  .see-project:hover {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #6070ff;
+    color: #fff;
+    border: solid 1px #fff;
+    padding: 12px;
+    border-radius: 4px;
+    /* margin-left: 5%;
+    margin-right: auto; */
   }
 }
 
@@ -283,6 +434,10 @@
     grid-template-columns: 100%;
     grid-template-rows: 640px 700px 640px 700px;
     gap: 25px;
+  }
+
+  .grid-1b {
+    display: none;
   }
 
   .work1 {
