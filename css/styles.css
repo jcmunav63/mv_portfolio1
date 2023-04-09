@@ -203,6 +203,15 @@
     margin-bottom: 20px;
   }
 
+.work-text1 {
+  margin-top: 8px;
+  font-size: 32px;
+  color: #172b4d;
+  width: 70%;
+  margin-left: 5%;
+  margin-bottom: 10px;
+}
+
   .canopy {
     color: #344563;
     font-size: 18px;
