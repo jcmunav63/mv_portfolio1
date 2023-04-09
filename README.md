@@ -22,11 +22,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: finish mobile version] <a name="about-project"></a>
+# 📖 [Portfolio: desktop version] <a name="about-project"></a>
 
-mv_portfolio: finish mobile version!
+mv_portfolio: desktop version!
 
-**Portfolio: finish mobile version** A project for finishing a mobile portfolio app!
+**Portfolio: desktop version** A project for finishing the desktop portfolio app!
 
 ## 🛠️ Built With <a name="built-with">
 ### Tech Stack <a name="tech-stack"></a>
@@ -42,6 +42,7 @@ mv_portfolio: finish mobile version!
 - **Good HTML and CSS practices**
 - **A wepage with use of linters**
 - **Use of CSS Flexbox and Grid Layout**
+- **Use of Media queries**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
