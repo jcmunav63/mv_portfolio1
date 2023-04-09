@@ -65,9 +65,7 @@
   }
 
   .toolbar {
-    /* height: 72px; */
     padding-top: 16px;
-    /* padding-bottom: 150px; */
     position: fixed;
     background-color: #fff;
   }
@@ -86,7 +84,6 @@
   }
 
   .container-5 {
-    /* width: 90%; */
     margin: 0px auto 0px auto;
     padding: 0% 8% 0% 8%;
     display: flex;
@@ -151,14 +148,12 @@
   }
 
   .grid-1b {
-    /* width: 90%; */
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    /* gap: 25px; */
   }
 
   .rows {
@@ -169,17 +164,12 @@
     border: solid 1px #dfe1e6;
     border-radius: 24px;
     display: flex;
-    /* justify-content: space-between; */
     gap: 20px;
   }
 
   .work1b {
     background-color: #fff;
     width: 50%;
-    /* border: solid 1px #dfe1e6;
-    border-radius: 16px; */
-    /* margin-top: 30px;
-    margin-bottom: 30px; */
     padding: 20px auto auto 20px;
     display: flex;
     flex-direction: column;
@@ -219,7 +209,6 @@
     line-height: 24px;
     font-weight: 500;
     margin: 5px 10px 5px 10px;
-    /* padding: 0px 15px 0px 15px; */
   }
 
   .bed,
@@ -258,8 +247,6 @@
 
   .flex1,
   .flex2 {
-    /* margin-left: 5%;
-    margin-right: auto; */
     display: flex;
     align-items: center;
     margin-bottom: 32px;
@@ -276,8 +263,6 @@
     border: solid 1px #396df2;
     padding: 12px;
     border-radius: 4px;
-    /* margin-left: 5%;
-    margin-right: auto; */
   }
 
   .see-project:hover {
@@ -291,11 +276,9 @@
     border: solid 1px #fff;
     padding: 12px;
     border-radius: 4px;
-    /* margin-left: 5%;
-    margin-right: auto; */
   }
 
-  .work1-img {  /* REVISAR*/
+  .work1-img {
     display: block;
     width: 90%;
     height: auto;
@@ -311,7 +294,6 @@
     color: #172b4d;
     display: flex;
     padding: 0% 10% 0% 10%;
-    /* flex-direction: column; */
   }
 
   .first {
@@ -325,7 +307,6 @@
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
-    /* margin-left: 24px; */
   }
 
   .desc4 {
@@ -334,12 +315,10 @@
     font-weight: 400;
     color: #344563;
     margin-bottom: 28px;
-    /* width: 90%; */
   }
 
   .container-4 {
     display: flex;
-    /* margin: 0 20px 20px 24px; */
   }
 
   .my-resume {
@@ -353,8 +332,6 @@
     border: solid 1px #396df2;
     padding: 12px;
     border-radius: 4px;
-    /* margin-left: 5%;
-    margin-right: auto; */
   }
 
   .my-resume:hover {
@@ -368,8 +345,6 @@
     border: solid 1px #fff;
     padding: 12px;
     border-radius: 4px;
-    /* margin-left: 5%;
-    margin-right: auto; */
   }
 
   .second {
@@ -380,26 +355,17 @@
   }
 
   .languages {
-    /* display: flex;
-    flex-direction: column; */
-    /* justify-content: space-between; */
-    /* margin: 15px auto 15px 26px; */
     width: 45%;
     padding-bottom: 10px;
   }
 
   .frameworks,
   .skills {
-    /* display: flex; */
-    /* justify-content: space-between;
-    margin: 15px auto 30px 26px; */
     width: 45%;
     padding-bottom: 15px;
   }
 
   ul.lang-sub {
-    /* width: 85%;
-    margin: 10px auto 10px auto; */
     display: flex;
   }
 
@@ -426,8 +392,6 @@
 
   .li-sp {
     margin-bottom: 12px;
-    /* display: flex;
-    flex-direction: column; */
   }
 
   .arrow-down {
@@ -462,9 +426,6 @@
     color: #253858;
     font-weight: 500;
     line-height: 20px;
-    /* padding-top: 16px;
-    padding-bottom: 5px;
-    padding-left: 15px; */
     width: 100px;
     vertical-align: middle;
     padding-left: 4px;
@@ -494,7 +455,7 @@
   #foot {
     box-sizing: border-box;
     background: url("/images/bg-contact.png");
-    background-size: cover; /* : cover or 100% or contain or ; */
+    background-size: cover;
     background-position: right 100% top 0%;
     background-repeat: no-repeat;
     width: 100%;
@@ -702,7 +663,6 @@
   }
 
   /* Section Headline */
-
   #delay {
     font-size: 40px;
     transition-property: font-size;
@@ -715,7 +675,7 @@
   }
 
   .headline {
-    margin: 0px, 20px, 0px, 20px; /* 0 15% 0 auto*/
+    margin: 0px, 20px, 0px, 20px;
     color: #172b4d;
     width: 100%;
     display: flex;
@@ -724,7 +684,7 @@
   }
   
   .name {
-    margin: 40px 20px 0px 24px; /* 40 18% 0 18%*/
+    margin: 40px 20px 0px 24px;
     color: #172b4d;
   }
   
@@ -898,7 +858,6 @@
     margin: 0px 20px 0px 20px;
   }
   .about_myself {
-    /* margin-left: 24px; */
     color: #172b4d;
     display: flex;
     flex-direction: column;
@@ -1178,4 +1137,3 @@
     margin: 0 auto 35px 22px;
   }
 }
- /* ================================ */
