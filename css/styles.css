@@ -7,7 +7,7 @@
   }
 
   body {
-    background-image: url("/images/bg-header.png");
+    background-image: url("../images/bg-header.png");
     background-size: 100%;
     background-position: 0% -1.5%;
     background-repeat: no-repeat;
@@ -474,7 +474,7 @@
   /* Contact form section */
   #foot {
     box-sizing: border-box;
-    background: url("/images/bg-contact.png");
+    background: url("../images/bg-contact.png");
     background-size: cover;
     background-position: right 100% top 0%;
     background-repeat: no-repeat;
@@ -606,7 +606,7 @@
 
   body {
     background-position: 0% 1.5%;
-    background-image: url("/images/headline-background-mobile.png");
+    background-image: url("../images/headline-background-mobile.png");
     background-size: 100%;
     background-repeat: no-repeat;
   }
@@ -1035,7 +1035,7 @@
   /* Contact form section */
   #foot {
     box-sizing: border-box;
-    background: url("/images/blue-background.png");
+    background: url("../images/blue-background.png");
     background-size: cover;
     background-position: right 50% top 0%;
     background-repeat: no-repeat;
