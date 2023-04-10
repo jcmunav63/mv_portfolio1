@@ -22,16 +22,16 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: desktop version] <a name="about-project"></a>
+# 📖 [Portfolio: Deployment of desktop version] <a name="about-project"></a>
 
-mv_portfolio: desktop version!
+mv_portfolio1: Deployment of desktop version!
 
-**Portfolio: desktop version** A project for finishing the desktop portfolio app!
+**Portfolio: Deployment of desktop version** A project for deployment of mobile & desktop portfolio app!
 
 ## 🛠️ Built With <a name="built-with">
 ### Tech Stack <a name="tech-stack"></a>
 - HTML
-- CSS
+- CSS & Media Queries
 
 </a>
 
@@ -68,7 +68,10 @@ Clone this repository to your desired folder:
 `git clone`
 `git@github.com:jcmunav63/mv_portfolio1.git`
 
+### Deployment (GitHub)
 
+Project deployed at:
+`https://jcmunav63.github.io/mv_portfolio1/`
 
 
 <!-- AUTHORS -->
@@ -88,7 +91,7 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Include the footer section and make the project look professional**
+- [ ] **Include accessibility features and make the project look professional**
 - [ ] **Develop a desktop version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
