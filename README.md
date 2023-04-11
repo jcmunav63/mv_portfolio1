@@ -6,13 +6,14 @@
   - [🛠️ Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -22,30 +23,43 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: desktop version] <a name="about-project"></a>
+# 📖 [Portfolio: Deployment of desktop version] <a name="about-project"></a>
 
-mv_portfolio: desktop version!
+mv_portfolio1: Deployment of desktop version!
 
-**Portfolio: desktop version** A project for finishing the desktop portfolio app!
+**Portfolio: Deployment of desktop version** A project for deployment of mobile & desktop portfolio app!
+
+
+<!-- Built With -->
 
 ## 🛠️ Built With <a name="built-with">
+
+
+<!-- Tech Stack -->
+
 ### Tech Stack <a name="tech-stack"></a>
 - HTML
-- CSS
+- CSS & Media Queries
 
-</a>
 
-<!-- Features -->
+<!-- Key Features -->
 
 ### Key Features <a name="key-features"></a>
 
 - **Good HTML and CSS practices**
-- **A wepage with use of linters**
+- **A webpage with use of linters**
 - **Use of CSS Flexbox and Grid Layout**
 - **Use of Media queries**
 
+<!-- Live Demo -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://jcmunav63.github.io/mv_portfolio1/)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 
@@ -53,13 +67,9 @@ mv_portfolio: desktop version!
 
 To get a local copy up and running, follow these steps.
 
-### Prerequisites
+<!-- Setup-->
 
-In order to run this project you need:
-
-- A modern web browser like Google Chrome, Mozilla Firefox, Apple Safari or Microsoft Edge.
-
-### Setup
+### Setup <a name="setup"></a>
 
 Clone this repository to your desired folder:
 
@@ -68,13 +78,25 @@ Clone this repository to your desired folder:
 `git clone`
 `git@github.com:jcmunav63/mv_portfolio1.git`
 
+<!-- Prerequisites-->
 
+### Prerequisites <a name="prerequisites"></a>
+
+In order to run this project you need:
+
+- A modern web browser like Google Chrome, Mozilla Firefox, Apple Safari or Microsoft Edge.
+
+<!-- Deployment-->
+
+### Deployment <a name="deployment"></a>
+
+Project deployed at:
+`https://jcmunav63.github.io/mv_portfolio1/`
 
 
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
 
 👤 **Juan Carlos Muñoz**
 
@@ -84,11 +106,11 @@ Clone this repository to your desired folder:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
+<!-- Future Features -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Include the footer section and make the project look professional**
+- [ ] **Include accessibility features and make the project look professional**
 - [ ] **Develop a desktop version**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
