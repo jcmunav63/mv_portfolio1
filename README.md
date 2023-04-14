@@ -23,7 +23,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: Deployment of desktop version] <a name="about-project"></a>
+# 📖 [About the project. Portfolio: Deployment of desktop version] <a name="about-project"></a>
 
 mv_portfolio1: Deployment of desktop version!
 
@@ -34,6 +34,7 @@ mv_portfolio1: Deployment of desktop version!
 
 ## 🛠️ Built With <a name="built-with">
 
+This webiste portfolio app was built with the following components...
 
 <!-- Tech Stack -->
 
@@ -57,6 +58,7 @@ mv_portfolio1: Deployment of desktop version!
 
 - [Live Demo Link](https://jcmunav63.github.io/mv_portfolio1/)
 
+- Project presentation (video): (https://www.loom.com/share/d7060f327d5f44cca1949486d2eb21b8) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -65,7 +67,7 @@ mv_portfolio1: Deployment of desktop version!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps...
 
 <!-- Setup-->
 
@@ -73,7 +75,7 @@ To get a local copy up and running, follow these steps.
 
 Clone this repository to your desired folder:
 
-- Clone the project using by running the following command :
+- Clone the project using the following command :
 
 `git clone`
 `git@github.com:jcmunav63/mv_portfolio1.git`
