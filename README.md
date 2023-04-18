@@ -23,11 +23,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: Deployment of desktop version] <a name="about-project"></a>
+# 📖 [Portfolio: Details popup window] <a name="about-project"></a>
 
-mv_portfolio1: Deployment of desktop version!
+mv_portfolio1: Details popup window!
 
-**Portfolio: Deployment of desktop version** A project for deployment of mobile & desktop portfolio app!
+**Portfolio: Details popup window** A project for including a popup window for all work details!
 
 
 <!-- Built With -->
@@ -40,6 +40,7 @@ mv_portfolio1: Deployment of desktop version!
 ### Tech Stack <a name="tech-stack"></a>
 - HTML
 - CSS & Media Queries
+- JavaScript
 
 
 <!-- Key Features -->
@@ -50,6 +51,7 @@ mv_portfolio1: Deployment of desktop version!
 - **A webpage with use of linters**
 - **Use of CSS Flexbox and Grid Layout**
 - **Use of Media queries**
+- **JavaScript**
 
 <!-- Live Demo -->
 
@@ -86,6 +88,24 @@ In order to run this project you need:
 
 - A modern web browser like Google Chrome, Mozilla Firefox, Apple Safari or Microsoft Edge.
 
+<!-- Install -->
+
+### Install <a name="install"></a>
+
+Install this project with:
+
+<!-- Usage -->
+
+### Usage <a name="usage"></a>
+
+To run the project, execute the following command:
+
+<!-- Run Tests -->
+
+### Run Tests <a name="run-tests"></a>
+
+To run tests, run the following command:
+
 <!-- Deployment-->
 
 ### Deployment <a name="deployment"></a>
@@ -111,7 +131,7 @@ Project deployed at:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Include accessibility features and make the project look professional**
-- [ ] **Develop a desktop version**
+- [ ] **Include input validations**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
