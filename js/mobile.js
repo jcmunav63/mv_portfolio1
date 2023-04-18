@@ -1,8 +1,17 @@
 const menuToggle = document.querySelector('.menu');
-const menu-list = document.querySelector('.menu-list');
-const closeButton = document.querySelector('.cancel1');
+const modal = document.querySelector('.overlay');
+const closeButton = document.querySelector('.toolbar-2');
 
 menuToggle.addEventListener('click', () => {
-  toolbar-2.add('show');
-  menu-list.classList.add('show');
+  modal.classList.add('show');
+});
+
+closeButton.addEventListener('click', () => {
+  modal.classList.remove('show');
+});
+
+modal.querySelectorAll('a').forEach((link) => {
+  link.addEventListener('click', () => {
+    modal.classList.remove('show');
+  });
 });
