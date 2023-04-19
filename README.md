@@ -23,32 +23,42 @@
 
 <!-- PROJECT DESCRIPTION -->
 
+<<<<<<< HEAD
 # 📖 [Portfolio: Details popup window] <a name="about-project"></a>
 
 mv_portfolio1: Details popup window!
 
 **Portfolio: Details popup window** A project for including a popup window for all work details!
+=======
+# 📖 [Portfolio: Mobile Menu] <a name="about-project"></a>
 
+mv_portfolio1: Mobile menu project!
+>>>>>>> 02e117b603905381c9d08867ab780fdb2a0c6f4d
+
+**Portfolio: Set the menu options for mobile version** A project for setting up the menu options in the mobile version of our portfolio!
 
 <!-- Built With -->
 
 ## 🛠️ Built With <a name="built-with">
 
-
 <!-- Tech Stack -->
 
 ### Tech Stack <a name="tech-stack"></a>
+
 - HTML
 - CSS & Media Queries
 - JavaScript
+<<<<<<< HEAD
 
+=======
+>>>>>>> 02e117b603905381c9d08867ab780fdb2a0c6f4d
 
 <!-- Key Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Good HTML and CSS practices**
-- **A webpage with use of linters**
+- **Good HTML, CSS & JS practices**
+- **A webpage with the use of linters**
 - **Use of CSS Flexbox and Grid Layout**
 - **Use of Media queries**
 - **JavaScript**
@@ -59,9 +69,7 @@ mv_portfolio1: Details popup window!
 
 - [Live Demo Link](https://jcmunav63.github.io/mv_portfolio1/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
@@ -69,18 +77,18 @@ mv_portfolio1: Details popup window!
 
 To get a local copy up and running, follow these steps.
 
-<!-- Setup-->
+<!-- Setup -->
 
 ### Setup <a name="setup"></a>
 
 Clone this repository to your desired folder:
 
-- Clone the project using by running the following command :
+- Clone the project using the following command :
 
 `git clone`
 `git@github.com:jcmunav63/mv_portfolio1.git`
 
-<!-- Prerequisites-->
+<!-- Prerequisites -->
 
 ### Prerequisites <a name="prerequisites"></a>
 
@@ -106,13 +114,16 @@ To run the project, execute the following command:
 
 To run tests, run the following command:
 
+<<<<<<< HEAD
 <!-- Deployment-->
+=======
+<!-- Deployment -->
+>>>>>>> 02e117b603905381c9d08867ab780fdb2a0c6f4d
 
 ### Deployment <a name="deployment"></a>
 
 Project deployed at:
 `https://jcmunav63.github.io/mv_portfolio1/`
-
 
 <!-- AUTHORS -->
 
@@ -130,7 +141,10 @@ Project deployed at:
 - Twitter: [@baezluise1](https://twitter.com/baezluise1)
 - LinkedIn: [@Luis Enrique Báez Méndez](https://www.linkedin.com/in/luis-enrique-b%C3%A1ez-m%C3%A9ndez-641917159/)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 02e117b603905381c9d08867ab780fdb2a0c6f4d
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Future Features -->
@@ -138,7 +152,11 @@ Project deployed at:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Include accessibility features and make the project look professional**
+<<<<<<< HEAD
 - [ ] **Include input validations**
+=======
+- [ ] **Include details windows for mobile and desktop versions (popup windows)**
+>>>>>>> 02e117b603905381c9d08867ab780fdb2a0c6f4d
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

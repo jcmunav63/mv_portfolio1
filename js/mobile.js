@@ -2,6 +2,7 @@ const menuToggle = document.querySelector('.menu');
 const modal = document.querySelector('.overlay');
 const closeButton = document.querySelector('.toolbar-2');
 
+<<<<<<< HEAD
 // Define constants for popup window
 const open-popup = document.getElementById('open-popup');
 const popup-container = document.getElementById('popup-container');
@@ -19,6 +20,8 @@ close-popup.addEventListener('click', () => {
 });
 
 
+=======
+>>>>>>> 02e117b603905381c9d08867ab780fdb2a0c6f4d
 menuToggle.addEventListener('click', () => {
   modal.classList.add('show');
 });
@@ -31,4 +34,8 @@ modal.querySelectorAll('a').forEach((link) => {
   link.addEventListener('click', () => {
     modal.classList.remove('show');
   });
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> 02e117b603905381c9d08867ab780fdb2a0c6f4d
