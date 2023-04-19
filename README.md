@@ -29,15 +29,14 @@ mv_portfolio1: Mobile menu project!
 
 **Portfolio: Set the menu options for mobile version** A project for setting up the menu options in the mobile version of our portfolio!
 
-
 <!-- Built With -->
 
 ## 🛠️ Built With <a name="built-with">
 
-
 <!-- Tech Stack -->
 
 ### Tech Stack <a name="tech-stack"></a>
+
 - HTML
 - CSS & Media Queries
 - JavaScript
@@ -57,9 +56,7 @@ mv_portfolio1: Mobile menu project!
 
 - [Live Demo Link](https://jcmunav63.github.io/mv_portfolio1/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
@@ -111,7 +108,6 @@ To run tests, run the following command:
 Project deployed at:
 `https://jcmunav63.github.io/mv_portfolio1/`
 
-
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
@@ -122,10 +118,11 @@ Project deployed at:
 - Twitter: [@jcmunav63](https://twitter.com/jcmunav63)
 - LinkedIn: [@juan-carlos-muñoz-navarrete](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-navarrete-bbb26b7a/)
 
-👤 **Luis Enrique Baez**
+👤 **Luis Báez**
+
 - GitHub: [@baezluise](https://github.com/baezluise)
-- Twitter: [@baezluise](https://twitter.com/)
-- LinkedIn: [@baezluise](https://www.linkedin.com/in/https://www.linkedin.com/in/luis-enrique-b%C3%A1ez-m%C3%A9ndez-641917159/ 
+- Twitter: [@baezluise1](https://twitter.com/baezluise1)
+- LinkedIn: [@Luis Enrique Báez Méndez](https://www.linkedin.com/in/luis-enrique-b%C3%A1ez-m%C3%A9ndez-641917159/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
