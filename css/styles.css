@@ -778,14 +778,12 @@
     display: none;
   }
 
-  .overlay.show {
+  .show {
     position: absolute;
     display: block;
     background-color: rgb(96, 112, 255, 0.8);
     width: 100%;
     height: 1300px;
-
-    /* z-index: 1; */
   }
 
   .toolbar-2 {
