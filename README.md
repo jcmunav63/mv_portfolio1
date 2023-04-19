@@ -23,31 +23,30 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: Deployment of desktop version] <a name="about-project"></a>
+# 📖 [Portfolio: Mobile Menu] <a name="about-project"></a>
 
-mv_portfolio1: Deployment of desktop version!
+mv_portfolio1: Mobile menu project!
 
-**Portfolio: Deployment of desktop version** A project for deployment of mobile & desktop portfolio app!
-
+**Portfolio: Set the menu options for mobile version** A project for setting up the menu options in the mobile version of our portfolio!
 
 <!-- Built With -->
 
 ## 🛠️ Built With <a name="built-with">
 
-
 <!-- Tech Stack -->
 
 ### Tech Stack <a name="tech-stack"></a>
+
 - HTML
 - CSS & Media Queries
-
+- JavaScript
 
 <!-- Key Features -->
 
 ### Key Features <a name="key-features"></a>
 
-- **Good HTML and CSS practices**
-- **A webpage with use of linters**
+- **Good HTML, CSS & JS practices**
+- **A webpage with the use of linters**
 - **Use of CSS Flexbox and Grid Layout**
 - **Use of Media queries**
 
@@ -57,9 +56,7 @@ mv_portfolio1: Deployment of desktop version!
 
 - [Live Demo Link](https://jcmunav63.github.io/mv_portfolio1/)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 <!-- GETTING STARTED -->
 
@@ -67,18 +64,18 @@ mv_portfolio1: Deployment of desktop version!
 
 To get a local copy up and running, follow these steps.
 
-<!-- Setup-->
+<!-- Setup -->
 
 ### Setup <a name="setup"></a>
 
 Clone this repository to your desired folder:
 
-- Clone the project using by running the following command :
+- Clone the project using the following command :
 
 `git clone`
 `git@github.com:jcmunav63/mv_portfolio1.git`
 
-<!-- Prerequisites-->
+<!-- Prerequisites -->
 
 ### Prerequisites <a name="prerequisites"></a>
 
@@ -86,13 +83,30 @@ In order to run this project you need:
 
 - A modern web browser like Google Chrome, Mozilla Firefox, Apple Safari or Microsoft Edge.
 
-<!-- Deployment-->
+<!-- Install -->
+
+### Install <a name="install"></a>
+
+Install this project with:
+
+<!-- Usage -->
+
+### Usage <a name="usage"></a>
+
+To run the project, execute the following command:
+
+<!-- Run Tests -->
+
+### Run Tests <a name="run-tests"></a>
+
+To run tests, run the following command:
+
+<!-- Deployment -->
 
 ### Deployment <a name="deployment"></a>
 
 Project deployed at:
 `https://jcmunav63.github.io/mv_portfolio1/`
-
 
 <!-- AUTHORS -->
 
@@ -104,6 +118,12 @@ Project deployed at:
 - Twitter: [@jcmunav63](https://twitter.com/jcmunav63)
 - LinkedIn: [@juan-carlos-muñoz-navarrete](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-navarrete-bbb26b7a/)
 
+👤 **Luis Báez**
+
+- GitHub: [@baezluise](https://github.com/baezluise)
+- Twitter: [@baezluise1](https://twitter.com/baezluise1)
+- LinkedIn: [@Luis Enrique Báez Méndez](https://www.linkedin.com/in/luis-enrique-b%C3%A1ez-m%C3%A9ndez-641917159/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Future Features -->
@@ -111,7 +131,7 @@ Project deployed at:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Include accessibility features and make the project look professional**
-- [ ] **Develop a desktop version**
+- [ ] **Include details windows for mobile and desktop versions (popup windows)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
