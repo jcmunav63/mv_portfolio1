@@ -141,8 +141,30 @@
   }
 
   .container-3 {
-    display: flex;
     margin-bottom: 200px;
+  }
+
+  .social {
+    display: flex;
+    align-items: first baseline;
+  }
+
+  .linkedin,
+  .m,
+  .github,
+  .angelist {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .githubb {
+    padding-right: 5px;
+  }
+
+  .m {
+    width: 22px;
+    height:22px;
+    margin-top: 2px;
   }
 
   /* Work Section */
@@ -362,7 +384,7 @@
   }
 
   .container-4 {
-    display: flex;
+  
   }
 
   .my-resume {
