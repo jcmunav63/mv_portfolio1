@@ -352,6 +352,10 @@
     margin-right: auto;
   }
 
+  .popup-wdw {
+    display: none;
+  }
+
   /* Section About Myself */
   .about_myself {
     width: 80%;
@@ -1044,6 +1048,10 @@
     width: 22px;
     position: relative;
     top: 3px;
+  }
+
+  .popup-wdw {
+    display: none;
   }
 
   /* Section About Myself */

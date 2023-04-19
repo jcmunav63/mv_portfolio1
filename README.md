@@ -23,19 +23,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-<<<<<<< HEAD
 # 📖 [Portfolio: Details popup window] <a name="about-project"></a>
 
 mv_portfolio1: Details popup window!
 
 **Portfolio: Details popup window** A project for including a popup window for all work details!
-=======
-# 📖 [Portfolio: Mobile Menu] <a name="about-project"></a>
-
-mv_portfolio1: Mobile menu project!
->>>>>>> 02e117b603905381c9d08867ab780fdb2a0c6f4d
-
-**Portfolio: Set the menu options for mobile version** A project for setting up the menu options in the mobile version of our portfolio!
 
 <!-- Built With -->
 
@@ -48,10 +40,6 @@ mv_portfolio1: Mobile menu project!
 - HTML
 - CSS & Media Queries
 - JavaScript
-<<<<<<< HEAD
-
-=======
->>>>>>> 02e117b603905381c9d08867ab780fdb2a0c6f4d
 
 <!-- Key Features -->
 
@@ -114,11 +102,7 @@ To run the project, execute the following command:
 
 To run tests, run the following command:
 
-<<<<<<< HEAD
-<!-- Deployment-->
-=======
 <!-- Deployment -->
->>>>>>> 02e117b603905381c9d08867ab780fdb2a0c6f4d
 
 ### Deployment <a name="deployment"></a>
 
@@ -141,10 +125,6 @@ Project deployed at:
 - Twitter: [@baezluise1](https://twitter.com/baezluise1)
 - LinkedIn: [@Luis Enrique Báez Méndez](https://www.linkedin.com/in/luis-enrique-b%C3%A1ez-m%C3%A9ndez-641917159/)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 02e117b603905381c9d08867ab780fdb2a0c6f4d
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Future Features -->
@@ -152,11 +132,7 @@ Project deployed at:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Include accessibility features and make the project look professional**
-<<<<<<< HEAD
-- [ ] **Include input validations**
-=======
-- [ ] **Include details windows for mobile and desktop versions (popup windows)**
->>>>>>> 02e117b603905381c9d08867ab780fdb2a0c6f4d
+- [ ] **Include details window for mobile and desktop versions (popup window)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
