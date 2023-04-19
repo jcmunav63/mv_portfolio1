@@ -124,6 +124,13 @@ Project deployed at:
 - Twitter: [@jcmunav63](https://twitter.com/jcmunav63)
 - LinkedIn: [@juan-carlos-muñoz-navarrete](https://www.linkedin.com/in/juan-carlos-mu%C3%B1oz-navarrete-bbb26b7a/)
 
+👤 **Luis Báez**
+
+- GitHub: [@baezluise](https://github.com/baezluise)
+- Twitter: [@baezluise1](https://twitter.com/baezluise1)
+- LinkedIn: [@Luis Enrique Báez Méndez](https://www.linkedin.com/in/luis-enrique-b%C3%A1ez-m%C3%A9ndez-641917159/)
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Future Features -->
