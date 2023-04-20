@@ -16,6 +16,8 @@ modal.querySelectorAll('a').forEach((link) => {
   });
 });
 
+
+
 const form = document.getElementById("form1");
 const email = form["email"];
 
@@ -27,7 +29,7 @@ function emailValidation(mail) {
     return true;
   }
 }
-// Enmail validation alternatives
+// Enmail validation alternatives REGEXP
 // /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,63})$
 // /^\w+([.-_+]?\w+)*@\w+([.-]?\w+)*(\.\w{2,10})+$/;
 

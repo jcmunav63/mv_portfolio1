@@ -706,14 +706,14 @@
   .shows {
     /* position: absolute; */
     display: block;
-    color:crimson;
+    color: crimson;
     background-color: cornsilk;
     border: 1px solid crimson;
     border-radius: 8px;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     width: 50%;
     margin: 10px auto 10px auto;
   }
@@ -1414,7 +1414,7 @@
   }
 
   .message1.p {
-    color:crimson;
+    color: crimson;
     background-color: cornsilk;
     border: 1px solid crimson;
     border-radius: 8px;
