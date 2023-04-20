@@ -700,7 +700,7 @@
   }
 
   .message1 {
-    display: none;
+    display: block;
   }
 
   .shows {
