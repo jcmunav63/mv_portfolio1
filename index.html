@@ -59,7 +59,7 @@
       </nav>
     </header>
     <section class="headline">
-      <h1 id="delay" class="name poppins">I'm Juan Carlos. Glad to see you!</h1>
+      <h1 id="delay" class="name poppins">I'm Juan Carlos.<br>Glad to see you!</h1>
       <p class="desc poppins">
         I'm a software developer! I can help you build a product, feature or website. Look through
         some of my work and experience! If you like what you see and have a project you need coded,
@@ -512,9 +512,12 @@
             ></textarea>
           </div>
           <button type="submit" id="getintouch" class="button3">Get in touch</button>
-          <div class="message1">
-            <img class="" href="/images/cancel1.png" />
-            <p class="message1-p">Error: Email needs to be in lowercase letters!</p>
+          <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p><strong>ERROR: </strong>Letters must be in lowercase!</p>
+            </div>
           </div>
         </form>
       </section>

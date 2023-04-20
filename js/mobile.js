@@ -1,3 +1,4 @@
+// MOBILE MENU SCRIPT
 const menuToggle = document.querySelector('.menu');
 const modal = document.querySelector('.overlay');
 const closeButton = document.querySelector('.toolbar-2');
@@ -16,6 +17,7 @@ modal.querySelectorAll('a').forEach((link) => {
   });
 });
 
+// EMAIL VALIDATION SCRIPT
 const form = document.getElementById('form1');
 const email = form['email'];
 
@@ -30,14 +32,20 @@ function emailValidation(mail) {
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
+  let isValid = emailValidation(email.value);
+  var modal2 = document.getElementById("myModal");
+  var span = document.getElementsByClassName("close")[0];
 
-  let email2 = email.value;
-  let isValid = emailValidation(email2);
-  const msg = document.querySelector('.message1');
   if (!isValid) {
-    msg.innerHTML = `<img class="" href="/images/cancel1.png" />
-    <p class="message1-p">Error: Email needs to be in lowercase letters!</p>
-                   `;
+    modal2.style.display = "block";
+    span.onclick = function() {
+      modal2.style.display = "none";
+    }
+    window.onclick = function(event) {
+      if (event.target == modal2) {
+        modal2.style.display = "none";
+      }
+    }
   } else {
     form.submit();
     form.reset();
