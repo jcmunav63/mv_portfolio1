@@ -614,7 +614,7 @@
     font-size: 17px;
     font-weight: 400;
     line-height: 24px;
-    color: #5d5d5e; /* cambiar a mobile */
+    color: #5d5d5e;
     margin: 12px 16px 24px 16px;
     width: 90%;
   }
@@ -703,12 +703,17 @@
     display: none;
   }
 
-  .message1.p {
+  .shows {
+    /* position: absolute; */
+    display: block;
     color:crimson;
     background-color: cornsilk;
     border: 1px solid crimson;
     border-radius: 8px;
     text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Poppins;
     width: 50%;
     margin: 10px auto 10px auto;
   }
@@ -1319,7 +1324,7 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
-    color: #8f9091;
+    color: #5d5d5e;
     margin: 12px 16px 20px 16px;
     width: 90%;
   }
