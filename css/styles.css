@@ -595,7 +595,7 @@
   #names {
     font-size: 17px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 24px;
     color: #172b4d;
     margin: 15px 38px 15px 16px;
     width: 90%;
@@ -604,17 +604,17 @@
   #email {
     font-size: 17px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 24px;
     color: #172b4d;
     margin: 15px 38px 15px 16px;
     width: 90%;
   }
 
   #textarea {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 400;
     line-height: 24px;
-    color: #b3bac5;
+    color: #5d5d5e; /* cambiar a mobile */
     margin: 12px 16px 24px 16px;
     width: 90%;
   }
@@ -697,6 +697,20 @@
     border-radius: 8px;
     width: 132px;
     margin: 0 auto 45px auto;
+  }
+
+  .message1 {
+    display: none;
+  }
+
+  .message1.p {
+    color:crimson;
+    background-color: cornsilk;
+    border: 1px solid crimson;
+    border-radius: 8px;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto 10px auto;
   }
 }
 
@@ -1305,7 +1319,7 @@
     font-size: 15px;
     font-weight: 400;
     line-height: 24px;
-    color: #b3bac5;
+    color: #8f9091;
     margin: 12px 16px 20px 16px;
     width: 90%;
   }
@@ -1388,5 +1402,19 @@
     border-radius: 8px;
     width: 132px;
     margin: 0 auto 35px 22px;
+  }
+
+  .message1 {
+    display: none;
+  }
+
+  .message1.p {
+    color:crimson;
+    background-color: cornsilk;
+    border: 1px solid crimson;
+    border-radius: 8px;
+    text-align: center;
+    width: 50%;
+    margin: 10px auto 10px auto;
   }
 }
