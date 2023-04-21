@@ -7,7 +7,7 @@ menuToggle.addEventListener('click', () => {
   modal.classList.add('show');
 });
 
-closeButton.addEventListener('click', () => {
+closeButtons.addEventListener('click', () => {
   modal.classList.remove('show');
 });
 
@@ -35,7 +35,7 @@ form.addEventListener('submit', (event) => {
   const modal2 = document.getElementById('myModal');
   const span = document.getElementsByClassName('close')[0];
 
-  if (!isValid) {
+  if (isValid) {
     modal2.style.display = 'block';
     span.onclick = function clickedX() {
       modal2.style.display = 'none';
