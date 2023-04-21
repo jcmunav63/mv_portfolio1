@@ -1,29 +1,51 @@
-// PROJECT 10 - PRESERVING DATA IN THE BROWSER
-
 // FIRST, TAKE THE INFO FROM 3 INPUTS AN STORE IN LOCALSTORAGE (JSON).
-
-//Si no existe myContactData
-
+// CHECK IF myContactData EXISTS IN LOCALSTORAGE
 const myBody = document.body;
-myBody.onload = myFunction();
-// myBody.addEventListener('load', myfunction(), () => {
-//   // myFunction();
-//   console.log('La página ha terminado de cargarse!!');
-// });
+myBody.onload = checkDataExists();
 
-function myFunction() {
-  const myContactData = { name: 'Francisco Garcia', email: 'fgarcia@email.com', message: 'This is my message' };
+function checkDataExists() {
+  var myContactData = "";
+  const nameInput = document.querySelector('#names');
+  const emailInput = document.querySelector('#email');
+  const msgInput = document.querySelector('#textarea');
+  if(localStorage.getItem('contactForm') !== undefined && localStorage.getItem('contactForm')){
+    // alert("Already exists data in localStorage!");
+    getDataToInputs();
+  } else {
+    insertDataFirstTime();
+    getDataToInputs();
+  }
+}
+
+function insertDataFirstTime() {
+  myContactData = { name: 'Francisco Garcia', email: 'fgarcia@email.com', message: 'This is my message' };
   localStorage.setItem('contactForm', JSON.stringify(myContactData));
 };
 
 
-// THEN, IF THERE IS ANY DATA IN LOCALSTORAGE, WHEN THE PAGE LOADS,
-// THE INPUT FIELDS ARE PREFILLED WITH THE DATA.
-// Get the form elements
-// const nameinput = document.querySelector('#names');
-// const emailinput = document.querySelector('#email');
-// const msginput = document.querySelector('#textarea');
+function getDataToInputs() {
+  const forms = document.getElementById('form1');
+  let itemsArray = localStorage.getItem('contactForm') ?
+JSON.parse(localStorage.getItem('contactForm')) : [];
 
+  nameInput = itemsArray["name"];
+  emailInput = itemsArray["email"];
+  msgInput = itemsArray["message"];
+
+  forms.addEventListener('submit', (event) => {
+    recordInputData();
+  });
+}
+
+function recordInputData() {
+  alert("Data is to be recorded!");
+  nameInput = document.getElementById('#names').value;
+  emailInput = document.getElementById('#email').value;
+  msgInput = document.getElementById('#textarea').value;
+
+  myContactData = { name: nameInput, email: emailInput, message: msgInput };
+  localStorage.setItem('contactForm', JSON.stringify(myContactData));
+};
 
 // Listen for the DOMContentLoaded event
 // document.addEventListener('DOMContentLoaded', () => {
@@ -38,7 +60,6 @@ function myFunction() {
 //     }
 //   });
 // });
-
 
 // THIRD, WHEN THE USER CHANGES ANY INPUT FIELD, THE DATA IS SAVED IN
 // LOCALSTORAGE
