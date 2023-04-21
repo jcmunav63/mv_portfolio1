@@ -23,11 +23,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: Validate the contact form] <a name="about-project"></a>
+# 📖 [Portfolio: Preserve data in the browser] <a name="about-project"></a>
 
-mv_portfolio1: Validate a contact form!
+mv_portfolio1: Preserve data in the browser!
 
-**Portfolio: Validate the contact form for the mobile & desktop version** A project for validating the contact form in the mobile & desktop version of our portfolio!
+**Portfolio: Preserve data in the browser for the mobile & desktop version** A project for preserving data in the browser, for the mobile & desktop versions of our portfolio!
 
 <!-- Built With -->
 
