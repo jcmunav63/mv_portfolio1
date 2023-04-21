@@ -37,10 +37,10 @@ form.addEventListener('submit', (event) => {
 
   if (!isValid) {
     modal2.style.display = 'block';
-    span.onclick = function () {
+    span.onclick = function clickedX() {
       modal2.style.display = 'none';
     };
-    window.onclick = function (event) {
+    window.onclick = function clickedOut(event) {
       if (event.target === modal2) {
         modal2.style.display = 'none';
       }
