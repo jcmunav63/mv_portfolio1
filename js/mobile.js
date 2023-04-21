@@ -1,7 +1,7 @@
 // MOBILE MENU SCRIPT
 const menuToggle = document.querySelector('.menu');
 const modal = document.querySelector('.overlay');
-const closeButton = document.querySelector('.toolbar-2');
+const closeButton = document.querySelector('toolbar-2');
 
 menuToggle.addEventListener('click', () => {
   modal.classList.add('show');
