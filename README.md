@@ -23,11 +23,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio: Mobile Menu] <a name="about-project"></a>
+# 📖 [Portfolio: Validate the contact form] <a name="about-project"></a>
 
-mv_portfolio1: Mobile menu project!
+mv_portfolio1: Validate a contact form!
 
-**Portfolio: Set the menu options for mobile version** A project for setting up the menu options in the mobile version of our portfolio!
+**Portfolio: Validate the contact form for the mobile & desktop version** A project for validating the contact form in the mobile & desktop version of our portfolio!
 
 <!-- Built With -->
 
@@ -49,6 +49,7 @@ mv_portfolio1: Mobile menu project!
 - **A webpage with the use of linters**
 - **Use of CSS Flexbox and Grid Layout**
 - **Use of Media queries**
+- **Use of JavaScript**
 
 <!-- Live Demo -->
 
@@ -131,7 +132,6 @@ Project deployed at:
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **Include accessibility features and make the project look professional**
-- [ ] **Include details windows for mobile and desktop versions (popup windows)**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
