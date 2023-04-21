@@ -2,7 +2,7 @@
 
 // FIRST, TAKE THE INFO FROM 3 INPUTS AN STORE IN LOCALSTORAGE (JSON).
 
-window.addEventListener('load', myFunction() {
+body.addEventListener('load', myFunction() {
   myFunction();
   // console.log('La página ha terminado de cargarse!!');
 });
@@ -16,6 +16,26 @@ myFunction() {
 
 // THEN, IF THERE IS ANY DATA IN LOCALSTORAGE, WHEN THE PAGE LOADS,
 // THE INPUT FIELDS ARE PREFILLED WITH THE DATA.
+// Get the form elements
+const nameinput = document.querySelector('#names');
+const emailinput = document.querySelector('#email');
+const msginput = document.querySelector('#textarea');
+
+
+// Listen for the DOMContentLoaded event
+document.addEventListener('DOMContentLoaded', () => {
+  // Retrieve the form data from local storage
+  chrome.storage.local.get(['name', 'email', 'message'], (result) => {
+    // Check if the data exists in local storage
+    if (result.name && result.email && result.message ) {
+      // Set the input values to the stored data
+      nameInput.value = result.name;
+      emailInput.value = result.email;
+      msginput.value = result.message;
+    }
+  });
+});
+
 
 // THIRD, WHEN THE USER CHANGES ANY INPUT FIELD, THE DATA IS SAVED IN
 // LOCALSTORAGE
@@ -26,7 +46,7 @@ myFunction() {
 
   let string1 = "{ name: " + nameInput + ", email: " + emailInput + ", message: " + messageInput + "}";
 
-  localStorage.setItem('contactForm', JSON.stringify(string1);
+  localStorage.setItem('contactForm', JSON.stringify(string1));
 
 //  E X A M P L E S
 // if (!localStorage.getItem("bgcolor")) {
