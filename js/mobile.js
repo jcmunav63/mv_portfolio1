@@ -47,6 +47,6 @@ form.addEventListener('submit', (event) => {
     };
   } else {
     form.submit();
-    form.reset();
+    // form.reset();
   }
 });

@@ -1,11 +1,35 @@
 // PRESERVE DATA IN THE BROWSER (LOCAL STORAGE)
-const myBody = document.body;
-myBody.onload = checkDataExists();
+function recordInputData() {
+  const nameInput = document.querySelector('#names').value;
+  const emailInput = document.querySelector('#email').value;
+  const msgInput = document.querySelector('#textarea').value;
+
+  const myContactData = { name: nameInput, email: emailInput, message: msgInput };
+  localStorage.setItem('contactForm', JSON.stringify(myContactData));
+}
+
+function getDataToInputs() {
+  const forms = document.getElementById('form1');
+
+  const storedData = JSON.parse(localStorage.getItem('contactForm'));
+  const data1 = storedData.name;
+  const data2 = storedData.email;
+  const data3 = storedData.message;
+
+  forms.querySelector('#names').value = data1;
+  forms.querySelector('#textarea').value = data3;
+  forms.querySelector('#email').value = data2;
+
+  forms.addEventListener('submit', recordInputData);
+}
+
+function insertDataFirstTime() {
+  const myContactData = { name: 'Francisco Garcia', email: 'fgarcia@email.com', message: 'This is my message' };
+  localStorage.setItem('contactForm', JSON.stringify(myContactData));
+}
 
 function checkDataExists() {
-  var myContactData = "";
-
-  if(localStorage.getItem('contactForm') !== undefined && localStorage.getItem('contactForm')){
+  if (localStorage.getItem('contactForm') !== undefined && localStorage.getItem('contactForm')) {
     getDataToInputs();
   } else {
     insertDataFirstTime();
@@ -13,34 +37,5 @@ function checkDataExists() {
   }
 }
 
-function insertDataFirstTime() {
-  myContactData = { name: 'Francisco Garcia', email: 'fgarcia@email.com', message: 'This is my message' };
-  localStorage.setItem('contactForm', JSON.stringify(myContactData));
-};
-
-function getDataToInputs() {
-  const forms = document.getElementById('form1');
-
-  let storedData = JSON.parse(localStorage.getItem('contactForm'));
-  let data1 = storedData.name;
-  let data2 = storedData.email;
-  let data3 = storedData.message;
-
-  document.querySelector('#names').value = data1;
-  document.getElementById('textarea').innerHTML = data3;
-  document.querySelector('#email').value = data2;
-
-  forms.addEventListener('submit', (event) => {
-    recordInputData();
-  });
-}
-
-function recordInputData() {
-  nameInput = document.querySelector('#names').value;
-  emailInput = document.querySelector('#email').value;
-  msgInput = document.querySelector('#textarea').value;
-
-  let myContactData = { name: nameInput, email: emailInput, message: msgInput };
-  localStorage.setItem('contactForm', JSON.stringify(myContactData));
-
-};
+const myBody = document.body;
+myBody.onload = checkDataExists();
